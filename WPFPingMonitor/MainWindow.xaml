@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WPFPingMonitor"
         mc:Ignorable="d"
-        Title="MainWindow" Height="500" Width="900">
+        Title="MyPinger" Height="500" Width="900">
     <DockPanel>
         <StackPanel Orientation="Vertical"  DockPanel.Dock="Left" TextElement.FontSize="16">
             <StackPanel Background="AntiqueWhite" Margin="10">

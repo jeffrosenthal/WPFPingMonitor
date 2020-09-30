@@ -5,7 +5,7 @@ using System.Linq;
 using System.Net.NetworkInformation;
 using System.Runtime.CompilerServices;
 using System.Windows.Threading;
-using WPFPingMonitor.Annotations;
+
 
 namespace WPFPingMonitor
 {
@@ -139,7 +139,6 @@ namespace WPFPingMonitor
         #region Event Handler
         public event PropertyChangedEventHandler PropertyChanged;
 
-        [NotifyPropertyChangedInvocator]
         protected virtual void OnPropertyChanged([CallerMemberName] string propertyName = null)
         {
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
