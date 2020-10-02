@@ -7,7 +7,7 @@ using System.Runtime.CompilerServices;
 using System.Windows.Threading;
 
 
-namespace WPFPingMonitor
+namespace WpfPingMonitor
 {
     public class Pinger : INotifyPropertyChanged
     {

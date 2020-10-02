@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace WPFPingMonitor
+namespace WpfPingMonitor
 {
     public class PingResult
     {
